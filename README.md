@@ -4,6 +4,8 @@
 
 It combines the structured clarity of Things with the futuristic aesthetics of Transient — but without the usability issues.
 
+![photo-example](./assets/light-dark.png)
+
 ## 🔧 Fixes Over Transient
 
 While Transient looked beautiful, it had several practical issues — especially with **excessive transparency**, making many fields unreadable or invisible.
@@ -12,23 +14,11 @@ While Transient looked beautiful, it had several practical issues — especially
 
 ## 🌙 Dark Mode
 
-**Subtle neon, soft shadows, and calm contrast — perfect for night use.**
-
-![Dark mode](./assets/dark-mode.png)
+On mobile devices with **OLED or AMOLED displays**, Geeked's dark mode is especially effective — black pixels are fully turned off, which not only saves battery but also reduces eye strain during night-time use.
 
 ## ☀️ Light Mode
 
-**Minimal, bright, and readable — designed for daylight work.**
-
-![Light mode](./assets/light-mode.png)
-
-## 📱 Mobile Experience
-
-Geeked is also optimized for **mobile use**, with properly scaled UI elements, clear input fields, and no visual glitches on touchscreens.
-
-- ![Mobile 1](./assets/mobile-1.png)
-- ![Mobile 2](./assets/mobile-2.png)
-- ![Mobile 3](./assets/mobile-3.png)
+**Default light Things theme**
 
 ## 🎨 Theme Highlights
 
@@ -79,20 +69,27 @@ Geeked(inherited from Things) supports a wide number of alternate checkbox types
 ### Obsidian Marketplace (Recommended)
 
 1. Open the **Settings** in Obsidian
-1. Navigate to **Appearances** tab under **Options**
-1. Under the **Themes** section, click on the `Manage` button across from **Themes**
-1. Search for `Geeked` in the Filter text input
-1. Click `Use` and then you're done! 🎉
+2. Navigate to **Appearances** tab under **Options**
+3. Under the **Themes** section, click on the `Manage` button across from **Themes**
+4. Search for `Geeked` in the Filter text input
+5. Click `Use` and then you're done! 🎉
 
 ### Manual
 
 1. Download this repo
-1. Copy the `theme.css` file into your vault's `/.obsidian/themes` directory
-1. Rename the file to `Geeked.css` so it will have a unique name in the theme selection dropdown
-1. Open the **Settings** in Obsidian
-1. Navigate to **Appearances** tab under **Options**
-1. Under the **Themes** section, click on the dropdown menu next to **Theme** heading
-1. Select `Geeked` and then you're done! 🎉
+2. Copy the `theme.css` file into your vault's `/.obsidian/themes` directory
+3. Rename the file to `Geeked.css` so it will have a unique name in the theme selection dropdown
+4. Open the **Settings** in Obsidian
+5. Navigate to **Appearances** tab under **Options**
+6. Under the **Themes** section, click on the dropdown menu next to **Theme** heading
+7. Select `Geeked` and then you're done! 🎉
+
+## Configuration
+
+1. Appearance > Translucent Window > ON
+2. Appearance > Window Frame Style > Obsidian Frame
+3. Appearance > Show Tab Title Bar > OFF
+
 
 ---
 
